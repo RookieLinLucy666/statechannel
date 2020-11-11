@@ -3,6 +3,7 @@ creating a state channel between to user for doing transactions 2 layer and then
 
 * deploy the contract using truffle migrate command
 * start your genache blockchain
+* npm install
 * open run.js file put your blockchain url (recommend using genache) at
 // set your blockchain url here (this is usually the default for genache if you are using it)
 const web3 =new Web3(new Web3.providers.HttpProvider("http://localhost:7545"))
