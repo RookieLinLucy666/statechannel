@@ -23,4 +23,4 @@ const pk=await new Buffer.from('e5b8e89003c2b04157604837fe1af36081557054bdd2215c
 * in the run method add all the trasactions you want to make off chain by calling this method for everyoffchain transaction
 await offChainTransactions(sender address,receiver address,amount in eher)
 
-* for execution use node run.js then you will 
+* for execution use node run.js then you will get the desired output.
