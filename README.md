@@ -1,7 +1,8 @@
 # statechannel
 creating a state channel between to user for doing transactions 2 layer and then adding the net transaction to the blockchain and updating users balances after verifying their that both users signed it by a solidity smart contract.
 
-
+* deploy the contract using truffle migrate command
+* start your genache blockchain
 * open run.js file put your blockchain url (recommend using genache) at
 // set your blockchain url here (this is usually the default for genache if you are using it)
 const web3 =new Web3(new Web3.providers.HttpProvider("http://localhost:7545"))
